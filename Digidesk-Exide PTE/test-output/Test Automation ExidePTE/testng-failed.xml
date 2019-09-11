@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" verbose="3" name="Failed suite [Test Automation ExidePTE]" parallel="tests">
+  <test thread-count="2" verbose="3" name="FirefoxTest(failed)" parallel="methods">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="Runner.MasterRunner">
+        <methods>
+          <include name="Login"/>
+          <include name="Teardown"/>
+          <include name="setUpTest"/>
+        </methods>
+      </class> <!-- Runner.MasterRunner -->
+    </classes>
+  </test> <!-- FirefoxTest(failed) -->
+  <test thread-count="2" verbose="3" name="ChromeTest(failed)" parallel="methods">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="Runner.MasterRunner">
+        <methods>
+          <include name="Login"/>
+          <include name="Teardown"/>
+          <include name="setUpTest"/>
+        </methods>
+      </class> <!-- Runner.MasterRunner -->
+    </classes>
+  </test> <!-- ChromeTest(failed) -->
+</suite> <!-- Failed suite [Test Automation ExidePTE] -->

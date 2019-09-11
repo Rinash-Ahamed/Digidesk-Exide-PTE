@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Test Automation ExidePTE" parallel="tests" verbose="3">
+	
+	<!-- Test with chrome browser -->
+	<test name="ChromeTest" parallel="methods" thread-count="5">
+	<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="Runner.MasterRunner" />
+		</classes>
+	</test>
+	
+	<!-- Test with firefox browser -->
+	<test name="FirefoxTest" parallel="methods" thread-count="5">
+	<parameter name="browser" value="firefox" />
+		<classes>
+			<class name="Runner.MasterRunner" />
+		</classes>
+	</test> 
+</suite>

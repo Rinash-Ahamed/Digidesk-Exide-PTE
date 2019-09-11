@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="18687" started-at="2019-09-10T14:34:05 IST" finished-at="2019-09-10T14:34:23 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="18687" started-at="2019-09-10T14:34:05 IST" finished-at="2019-09-10T14:34:23 IST">
+      <class name="Runner.MasterRunner">
+        <test-method status="PASS" signature="Initialize()[pri:0, instance:Runner.MasterRunner@631330c]" name="Initialize" is-config="true" duration-ms="11118" started-at="2019-09-10T14:34:05 IST" finished-at="2019-09-10T14:34:16 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Initialize -->
+        <test-method status="PASS" signature="Login()[pri:0, instance:Runner.MasterRunner@631330c]" name="Login" duration-ms="6350" started-at="2019-09-10T14:34:16 IST" finished-at="2019-09-10T14:34:22 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="Teardown()[pri:0, instance:Runner.MasterRunner@631330c]" name="Teardown" is-config="true" duration-ms="1182" started-at="2019-09-10T14:34:22 IST" finished-at="2019-09-10T14:34:23 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Teardown -->
+      </class> <!-- Runner.MasterRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
