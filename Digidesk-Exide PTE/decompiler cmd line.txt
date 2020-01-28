@@ -1,0 +1,9 @@
+java -jar C:\Users\n409012\Downloads\procyon-decompiler-0.5.30.jar -jar C:\Users\n409012\Desktop\AMREG_Tool.jar -o C:\Users\n409012\Desktop\decompiled
+
+Step 1: java -jar
+Step 2: procyon-decompiler jar path
+Step 3: -jar 
+Step 4: jar that need to be decompiled path
+step 5: -o
+Step 6: output directory path
+
